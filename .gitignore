@@ -1,0 +1,41 @@
+# Arquivos pesados e gerados (NAO vao pro GitHub)
+output/
+assets/test_images/
+assets/test_audio*
+assets/images/
+assets/music/
+assets/audio/
+assets/uploads/
+assets/overlays/
+*.captions.json
+*.mp4
+*.m4a
+*.mp3
+*.wav
+
+# Chaves de API e segredos (NUNCA subir!)
+.env
+*.key
+secrets.json
+backend/ai33_config.json
+
+# Estado local (roteiros, fila, pastas de imagem) - não vai pro GitHub
+backend/queue_state.json
+backend/queue_state.bak.json
+backend/image_sources.json
+backend/*.tmp
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Node / frontend
+node_modules/
+dist/
+.vite/
+
+# Sistema
+.DS_Store
+Thumbs.db
